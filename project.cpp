@@ -12,7 +12,7 @@ void cleanscreen();
 void duraksama();
 
 void personelsil();
-int beforepersonelupdate();
+void beforepersonelupdate();
 void personelara();
 void personelistele();
 
@@ -299,7 +299,7 @@ void personelsil()
 	}
 }
 
-int beforepersonelupdate()
+void beforepersonelupdate()
 {
 	cout<<"NOT: Degistirmek istemediginiz bilgileri aynen giriniz !.."<<endl<<endl;
 	ifstream personelSil;
@@ -545,21 +545,6 @@ void urunlistele()
 }
 	
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
